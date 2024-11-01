@@ -1,0 +1,80 @@
+.activation-msg {
+    overflow: auto;
+    border: 5px solid;
+    padding: 0 2em;
+    background: #fff;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+.activation-popup {
+	margin-top: 4%;
+    width: 95%;
+    background: #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;   
+}
+.sfp_btn{
+    display: inline-block;
+    width: 208px;
+    padding: 10px 0px;
+    background: #58585a;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+input#sfp_api_field{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border:solid 1px #cccccc;
+}
+
+#sfp_client_form{
+
+    background-color: #fff;
+    margin-top: 4%;
+    padding: 20px;
+    width: 95%;
+}
+
+#sfp_client_form .sfp_btn, #sfp_client_form .sfp_validate_btn{
+    background: #0073aa;
+    color: #ffffff;
+    padding: 10px;
+    height: 45px;
+    color:#dddddd;
+    font-size: 18px;
+}
+#sfp_client_form .sfp_validate_btn, #sfp_client_form .sfp_btn:hover{
+    background: #0073B2;
+    color:#ffffff;
+    width: 208px;
+}
+
+.activation-msg {
+    border: solid 2px #cccccc;
+    border-radius:5px;
+}
+
+.activation-msg p{
+	font-size: 20px;
+}
+
+.activation-popup .activation-msg a{
+	font-size: 18px;
+}

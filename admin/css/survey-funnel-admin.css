@@ -1,0 +1,315 @@
+.activation-msg {
+    overflow: auto;
+    border: 5px solid;
+    padding: 0 2em;
+    background: #fff;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.activation-popup {
+	margin-top: 4%;
+    width: 95%;
+    background: #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.sfp_btn{
+    display: inline-block;
+    width: 208px;
+    padding: 10px 0px;
+    background: #58585a;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    border: none;
+    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+input#sfp_api_field{
+    width: 80%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    border:solid 1px #cccccc;
+}
+
+#sfp_client_form{
+
+    background-color: #fff;
+    margin-top: 4%;
+    padding: 20px;
+    width: 95%;
+}
+
+#sfp_client_form .sfp_btn, #sfp_client_form .sfp_validate_btn{
+    background: #0073aa;
+    color: #ffffff;
+    padding: 10px;
+    height: 45px;
+    color:#dddddd;
+    font-size: 18px;
+}
+#sfp_client_form .sfp_validate_btn, #sfp_client_form .sfp_btn:hover{
+    background: #0073B2;
+    color:#ffffff;
+    width: 208px;
+}
+
+.activation-msg {
+    border: solid 2px #cccccc;
+    border-radius:5px;
+}
+
+.activation-msg p{
+	font-size: 20px;
+}
+
+.activation-popup .activation-msg a{
+	font-size: 18px;
+}
+
+/* Restructure lite plugin CSS Start here */
+
+.sf-head{
+  padding: 20px 50px;
+}
+
+.sf-login-form{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sf-login-header{
+      background-color: #67809F;
+      padding: 5px 10px;
+      color: #fff;
+      box-sizing: border-box;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "Open Sans",sans-serif;
+      line-height: 1.42857;
+      display: table;
+      width: 100%
+}
+
+.sf-login-body{
+    border: 1px solid #67809F;
+}
+
+
+.sf-login-input-control{
+  border-radius: 25px;
+  width: 100%;
+background-color: #fff;
+border: 1px solid #c2cad8;
+    line-height: 1.42857;
+    color: #555;
+    display: block;
+}
+
+.sf-login-footer{
+  background-color: #F5F5F5;
+}
+
+.sf-login-submit, .sf-login-submit:hover{
+  color: #FFF;
+    background-color: #32c5d2;
+    border-color: #32c5d2;
+    line-height: 1.44;
+    border-radius: 25px;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sf-span-data{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.sf-span-data > a, .sf-span-data > a:hover{
+  text-decoration: none;
+  color: #67809F;
+  font-weight: bold;
+}
+
+/*media query */
+@media (min-width:769px){
+
+  .sf-login-control{
+    display: flex;
+  }
+
+  .sf-login-field{
+    width: 70%;
+  }
+
+  .sf-login-label{
+    width: 30%;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .sf-span-data{
+    font-size: 14px;
+  }
+
+  .sf-login-footer{
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .sf-login-user{
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .sf-login-input-control{
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  }
+
+  .sf-login-control{
+    padding: 20px 20px 0px 10px;
+  }
+
+  .sf-login-form{
+      width: 60%;
+  }
+
+  .sf-login-body{
+      border: 1px solid #67809F;
+          margin-right: 1px;
+  }
+
+}
+
+@media (min-width:321px) and (max-width:768px){
+
+  .sf-login-control{
+    display: block;
+  }
+
+  .sf-login-field{
+    width: 100%;
+  }
+
+  .sf-login-label{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .sf-span-data{
+    font-size: 12px;
+  }
+
+  .sf-login-footer{
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .sf-login-user{
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .sf-login-input-control{
+  height: 28px;
+  padding: 4px 8px;
+  font-size: 12px;
+  }
+
+  .sf-login-control{
+    padding: 10px 10px 0px 5px;
+  }
+
+  .sf-login-form{
+      width: 90%;
+  }
+
+  .sf-login-body{
+      border: 1px solid #67809F;
+          margin-right: 0.2px;
+  }
+
+}
+
+@media (max-width:320px){
+
+  .sf-login-control{
+    display: block;
+  }
+
+  .sf-login-field{
+    width: 100%;
+  }
+
+  .sf-login-label{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+
+  .sf-span-data{
+    font-size: 12px;
+  }
+
+  .sf-login-footer{
+    padding: 10px;
+    margin-top: 15px;
+  }
+
+  .sf-login-user{
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .sf-login-input-control{
+  height: 28px;
+  padding: 4px 8px;
+  font-size: 12px;
+  }
+
+  .sf-login-control{
+    padding: 10px 10px 0px 5px;
+  }
+
+  .sf-login-form{
+      width: 90%;
+  }
+
+  .sf-login-body{
+      border: 1px solid #67809F;
+          margin-right: 0.2px;
+  }
+
+ }
